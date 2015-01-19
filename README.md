@@ -17,22 +17,22 @@ var nthRoot = require('nth-root');
 Returns the square root of the given number by default:
 
 ```js
-nthRoot(16),
+nthRoot(16);
 //=> '4'
-nthRoot(-16), 
+nthRoot(-16); 
 //=> '-4'
 ```
 
 Pass a degree as the second param. e.g. to get cube root:
 
 ```js
-nthRoot(-27, 3), 
+nthRoot(-27, 3); 
 //=> '-3'
-nthRoot(27, 3),
+nthRoot(27, 3);
 //=> '3'
-nthRoot(-8, 3), 
+nthRoot(-8, 3); 
 //=> '-2'
-nthRoot(8, 3),
+nthRoot(8, 3);
 //=> '2'
 ```
 
