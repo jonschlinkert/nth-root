@@ -1,0 +1,38 @@
+{
+  "name": "nth-root",
+  "description": "Get the nth root of a number.",
+  "version": "0.1.0",
+  "homepage": "https://github.com/jonschlinkert/nth-root",
+  "author": {
+    "name": "Jon Schlinkert",
+    "url": "https://github.com/jonschlinkert"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jonschlinkert/nth-root.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jonschlinkert/nth-root/issues"
+  },
+  "license": {
+    "type": "MIT",
+    "url": "https://github.com/jonschlinkert/nth-root/blob/master/LICENSE-MIT"
+  },
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha -R spec"
+  },
+  "devDependencies": {
+    "mocha": "*"
+  },
+  "keywords": [
+    "cube",
+    "match",
+    "nth",
+    "root",
+    "square"
+  ]
+}
